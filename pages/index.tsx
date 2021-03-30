@@ -1,6 +1,4 @@
 import { Fragment } from 'react';
-// import { Navbar } from '../components';
-import { cityNames } from '../values';
 import { LimitCard } from '../components';
 import { Header } from '../components';
 import { Card } from '../components';

@@ -1,4 +1,4 @@
-# scenic-spot
+# D4-homework-Frontend
 
 ## 啟動
 
@@ -53,7 +53,6 @@ serve -p 3000
 
 ## 預覽
 
-https://scenic-spot.vercel.app/
 
 ## 說明
 
