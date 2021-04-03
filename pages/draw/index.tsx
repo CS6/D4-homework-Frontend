@@ -1,6 +1,5 @@
 import { Fragment } from 'react';
 import { LimitCard } from '../../components';
-import { Header } from '../../components';
 import { Card } from '../../components';
 import { UserInfo } from '../../components';
 import useSWR from 'swr'
@@ -18,9 +17,6 @@ const fetcher = async (
   return res.json();
 };
 
-function Home() {
-  return <Header />;
-}
 
 function Dashboards() {
   const { data: result, error } = useSWR(url, fetcher)
